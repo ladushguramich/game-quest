@@ -26,7 +26,7 @@
         <form action="/game-quest/quest-2" method="post">
             <button type="submit">yes</button>
         </form>
-        </form>
+
             <form action="/game-quest/quest.2" method="post">
             <button type="submit">no</button>
         </form>
@@ -35,7 +35,7 @@
     <div class="statistics">
 
         <form action="/game-quest/quest-2" method="post">
-            <center><p style="vertical-aligne: bottom;">
+            <center><p style="vertical-align: bottom;">
                 <p>Your username: <%= ((PlayerStats) session.getAttribute("playerStats")).getLoginName() %></p>
                 <p>Your IP Address: <%= ((PlayerStats)session.getAttribute("playerStats")).getIpAddress()%></p>
                 <p>Number of games:<%=((PlayerStats)session.getAttribute("playerStats")).getNumAttempts()%></p>

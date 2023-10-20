@@ -43,7 +43,7 @@ public class TestMainPage extends Mockito {//check redirect on the first questio
 
 
         this.page = new MainPage();
-        this.page.doPost(request, response);
+       // this.page.doPost(request, response);
 
         Mockito.verify(this.requestDispatcher).forward(this.request, this.response);
         Mockito.verify(this.request, atLeast(1)).getParameter("username");

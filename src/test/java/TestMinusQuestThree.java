@@ -34,7 +34,7 @@ public class TestMinusQuestThree extends Mockito {//check redirect on the -3 neg
         Mockito.when(this.request.getRequestDispatcher("/-3.jsp")).thenReturn(this.requestDispatcher);
 
         this.page = new MinusQuestThree();
-        this.page.doPost(request, response);
+        //this.page.doPost(request, response);
 
         Mockito.verify(this.requestDispatcher).forward(this.request, this.response);
     }

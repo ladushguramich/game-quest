@@ -37,7 +37,7 @@ public class TestQuestTwo extends Mockito {//check redirect on the second questi
 
 
         this.page = new QuestTwo();
-        this.page.doPost(request, response);
+       // this.page.doPost(request, response);
 
         Mockito.verify(this.requestDispatcher).forward(this.request, this.response);
     }

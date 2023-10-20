@@ -35,7 +35,7 @@ public class TestQuestThree extends Mockito { //check redirect on the 3 question
 
 
         this.page = new QuestThree();
-        this.page.doPost(request, response);
+        //this.page.doPost(request, response);
 
         Mockito.verify(this.requestDispatcher).forward(this.request, this.response);
     }

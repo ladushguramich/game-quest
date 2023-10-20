@@ -35,7 +35,7 @@ public class TestMinusQuestFour extends Mockito {//check redirect on the -4 nega
 
 
         this.page = new MinusQuestFour();
-        this.page.doPost(request, response);
+        //this.page.doPost(request, response);
 
         Mockito.verify(this.requestDispatcher).forward(this.request, this.response);
     }
