@@ -15,14 +15,14 @@
 <div>
     <center><h1>You rejected the call.
         Defeat!</h1></center>
-    <center><form action="/game-quest/quest-1" method="post">
+    <center><form action="/quest-1" method="post">
         <input type="hidden" name="reset" value="true">
         <button type="submit" name="tryAgain">try again</button>
     </form></center>
 </div>
 <div class="statistics">
 
-    <form action="/game-quest/quest-2" method="post">
+    <form action="/quest-2" method="post">
         <center><p style="vertical-aligne: bottom;">
             <p>Your username: <%= ((PlayerStats) session.getAttribute("playerStats")).getLoginName() %></p>
             <p>Your IP Address: <%= ((PlayerStats)session.getAttribute("playerStats")).getIpAddress()%></p>

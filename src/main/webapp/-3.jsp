@@ -13,7 +13,7 @@
 </head>
 <body>
 <center><div><h1>Your lodge has been exposed.<br> Defeat!</h1></div></center>
-<center><form action="/game-quest/quest-1" method="post">
+<center><form action="/quest-1" method="post">
     <button type="submit">try again</button>
 </form></cen
     ter>
@@ -21,7 +21,7 @@
 
 <div class="statistics">
 
-    <form action="/game-quest/quest-2" method="post">
+    <form action="/quest-2" method="post">
         <center><p style="vertical-aligne: bottom;">
             <p>Your username: <%= ((PlayerStats) session.getAttribute("playerStats")).getLoginName() %></p>
             <p>Your IP Address: <%= ((PlayerStats)session.getAttribute("playerStats")).getIpAddress()%></p>

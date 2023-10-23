@@ -17,7 +17,7 @@
 </div>
 <div class="statistics">
 
-    <form action="/game-quest/quest-2" method="post">
+    <form action="/quest-2" method="post">
         <center><p style="vertical-aligne: bottom;">
             <p>Your username: <%= ((PlayerStats) session.getAttribute("playerStats")).getLoginName() %></p>
             <p>Your IP Address: <%= ((PlayerStats)session.getAttribute("playerStats")).getIpAddress()%></p>

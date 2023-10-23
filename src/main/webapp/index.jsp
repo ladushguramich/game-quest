@@ -28,7 +28,7 @@
 
 
 <p2><center><strong>Please entries your name:</strong></center></p2>
-<center><form action="/game-quest/quest-1" method="post">
+<center><form action="/quest-1" method="post">
    <input type="text"  placeholder="enter name" required name="username"><%-- //сюда закидываем статистические данные--%>
     <button type="submit">introduce yourself</button>
 

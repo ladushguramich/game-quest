@@ -17,10 +17,10 @@
 <center><h1>You have climbed the bridge.<br>
     Who are you?</h1></center>
 <center>
-    <form action="/game-quest/quest-4" method="post">
+    <form action="/quest-4" method="post">
         <button type="submit">Tell the truth about yourself</button>
     </form>
-    <form action="/game-quest/quest.4" method="post">
+    <form action="/quest.4" method="post">
         <button type="submit">Lie about yourself</button>
     </form>
 </center>
@@ -28,7 +28,7 @@
 </div>
 <div class="statistics">
 
-    <form action="/game-quest/quest-2" method="post">
+    <form action="/quest-2" method="post">
         <center><p style="vertical-aligne: bottom;">
             <p>Your username: <%= ((PlayerStats) session.getAttribute("playerStats")).getLoginName() %></p>
             <p>Your IP Address: <%= ((PlayerStats)session.getAttribute("playerStats")).getIpAddress()%></p>

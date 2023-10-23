@@ -18,11 +18,11 @@
         Will you go up to the captain's bridge?</h1></center>
     </h1>
     <center>
-        <form action="/game-quest/quest-3" method="post">
+        <form action="/quest-3" method="post">
             <button type="submit">yes</button>
         </form>
         </form>
-        <form action="/game-quest/quest.2" method="post">
+        <form action="/quest.2" method="post">
             <button type="submit">no</button>
         </form>
     </center>
@@ -30,7 +30,7 @@
 </div>
 <div class="statistics">
 
-    <form action="/game-quest/quest-2" method="post">
+    <form action="/quest-2" method="post">
         <center><p style="vertical-aligne: bottom;">
             <p>Your username: <%= ((PlayerStats) session.getAttribute("playerStats")).getLoginName() %></p>
             <p>Your IP Address: <%= ((PlayerStats)session.getAttribute("playerStats")).getIpAddress()%></p>
